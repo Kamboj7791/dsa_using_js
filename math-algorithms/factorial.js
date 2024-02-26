@@ -11,3 +11,4 @@ console.log(factorial(4));
 console.log(factorial(0));
 console.log(factorial(1));
 console.log(factorial(6));
+//Big-0 = o(n)
