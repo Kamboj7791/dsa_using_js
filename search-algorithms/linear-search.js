@@ -2,7 +2,7 @@
 function linearSearch(t) {
   let array = [1, 3, 4, 5, 2, 8];
   for (let i = 0; i < array.length; i++) {
-    if (array[i] === t) {
+    if (t === array[i]) {
       return i;
     }
   }
@@ -12,4 +12,5 @@ function linearSearch(t) {
 console.log(linearSearch(2));
 console.log(linearSearch(4));
 console.log(linearSearch(6));
+console.log(linearSearch(1));
 //Big-o=o(n)
