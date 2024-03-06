@@ -19,3 +19,4 @@ function search(array, target, leftIndex, rightIndex) {
 console.log(recursiveBinarySearch([2, 3, 6, 8, 19, 20], 3));
 console.log(recursiveBinarySearch([2, 3, 6, 8, 19, 20], 4));
 console.log(recursiveBinarySearch([2, 3, 6, 8, 19, 20], 20));
+//Big-o = o(logn)
