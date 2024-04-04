@@ -11,6 +11,6 @@ function insertionSort(arr) {
   }
 }
 
-let arr = [-2, -3, -4, 8, -9, 10];
+let arr = [-2, , 5, -3, -4, 8, -9, 10];
 insertionSort(arr);
 console.log(arr);
